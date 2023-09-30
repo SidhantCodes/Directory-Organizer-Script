@@ -1,7 +1,7 @@
 import os
 import shutil
 
-targetFolder = 'C:/Users/Sidhant Mishra/Downloads'
+targetFolder = 'insert url'
 
 ext = {item.split('.')[-1] for item in os.listdir(targetFolder) if os.path.isfile(os.path.join(targetFolder, item))}
 
