@@ -2,9 +2,6 @@ import os
 import shutil
 import time
 
-
-
-
 def sortDir(targetFolder):
     ext = {item.split('.')[-1] for item in os.listdir(targetFolder) if os.path.isfile(os.path.join(targetFolder, item))}
 
