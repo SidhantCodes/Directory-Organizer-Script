@@ -17,7 +17,7 @@ def sortDir(targetFolder):
             shutil.move(os.path.join(targetFolder, item), os.path.join(targetFolder, fileExt, item))
             
 if __name__ == '__main__':
-    targetFolder = 'Direcrtory URL'
+    targetFolder = 'URL/To/Your/Target/Folder/Here'
     breakTime_mins = 10
     
     while True:
